@@ -1,0 +1,51 @@
+.voting-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .option {
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .option img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .option p {
+    margin-top: 10px;
+  }
+  
+  .option button {
+    margin-top: 10px;
+  }
+
+  .option img {
+    width: 200px;
+    height: 250px; /* Establece el mismo tamaño para todas las imágenes */
+    object-fit: cover; /* Ajusta el tamaño de las imágenes manteniendo la relación de aspecto */
+    border-radius: 10%; /* Agrega bordes redondeados */
+    transition: transform 0.3s ease; /* Agrega una transición suave al efecto hover */
+  }
+  
+  .option img:hover {
+    transform: scale(1.1); /* Hace que la imagen se agrande ligeramente al pasar el cursor sobre ella */
+  }
+
+  /* Estilos para los botones de votar */
+.option button {
+  border-radius: 20px; /* Ajusta el radio para que los botones sean redondeados */
+  font-family: 'Arial', sans-serif; /* Cambia el tipo de fuente */
+  background-color: #add8e6; /* Cambia el color de fondo a azul claro */
+  padding: 10px 20px; /* Ajusta el espaciado interior */
+  border: none; /* Quita el borde */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s ease; /* Agrega una transición suave */
+}
+
+/* Estilos para cuando el mouse pasa sobre los botones */
+.option button:hover {
+  background-color: #88c8ff; /* Cambia el color de fondo a un tono más oscuro de azul */
+}

@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(77, 75, 75);
+}
+
+/* Estilos para la barra de enviar mensajes */
+input[type="text"] {
+  width: 40%; /* Aumenta el ancho de la barra de texto */
+  padding: 10px; /* Ajusta el relleno interior */
+  border-radius: 15px; /* Redondea las esquinas de la barra de texto */
+  border: 2px solid #000; /* Añade un borde */
+  font-family: 'Arial', sans-serif; /* Cambia el tipo de fuente */
+}
+
+/* Estilos para el botón de enviar */
+button[type="submit"] {
+  background-color: #4CAF50; /* Cambia el color de fondo */
+  color: white; /* Cambia el color del texto a blanco */
+  padding: 10px 20px; /* Ajusta el espaciado interior */
+  border: none; /* Quita el borde */
+  border-radius: 5px; /* Redondea las esquinas del botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  font-family: 'Arial', sans-serif; /* Cambia el tipo de fuente */
+  font-size: 16px; /* Cambia el tamaño del texto */
+  transition: background-color 0.3s ease; /* Agrega una transición suave */
+}
+
+/* Estilos para cuando el mouse pasa sobre el botón */
+button[type="submit"]:hover {
+  background-color: #45a049; /* Cambia el color de fondo al pasar el mouse */
+}
+
